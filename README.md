@@ -8,7 +8,7 @@ PreUI is designed to provide you the preview of your app when you specify your p
 4. Well designed and easy-to-use UI
 
 # Author
-Akash Yadav
+Akash Yadav, 
 Student
 
 From UP, India
