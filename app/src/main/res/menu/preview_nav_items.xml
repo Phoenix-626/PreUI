@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <group
+		android:checkableBehavior="single">
+		<item android:title="Group 1">
+			<menu>
+				<item android:title="Item 1"
+					android:icon="@drawable/ic_dev"/>
+				<item android:title="Item 2"
+					android:icon="@drawable/ic_get_source_code"/>
+				<item android:title="Item 3"
+					android:icon="@drawable/ic_libs"/>
+			</menu>
+		</item>
+	</group>
+	
+	<group
+		android:checkableBehavior="single">
+		<item android:title="Group 2">
+			<menu>
+				<item android:title="Item 1"
+					android:icon="@drawable/ic_github"/>
+				<item android:title="Item 2"
+					android:icon="@drawable/ic_telegram"/>
+				<item android:title="Item 3"
+					android:icon="@drawable/ic_instagram"/>
+			</menu>
+		</item>
+	</group>
+    
+</menu>

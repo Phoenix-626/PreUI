@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="8dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/primary_colors"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginBottom="6dp"
+		android:textColor="@android:color/black"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:weightSum="3">
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/getColorsPrimary"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			app:cardBackgroundColor="@color/colorAccent"
+			app:cardCornerRadius="10dp"
+			app:cardElevation="5dp"
+			app:cardUseCompatPadding="true"
+			android:foreground="?attr/selectableItemBackground"
+			android:clickable="true"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1.0"
+			android:layout_marginRight="5dp">
+
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center">
+
+				<TextView
+					android:id="@+id/getColorsPrimaryText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:text="@string/ui_controls_color"
+					android:gravity="center"
+					android:textSize="12sp"
+					android:clickable="false"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/getColorsPrimaryLight"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			app:cardBackgroundColor="@color/colorAccent"
+			app:cardCornerRadius="10dp"
+			app:cardElevation="5dp"
+			app:cardUseCompatPadding="true"
+			android:foreground="?attr/selectableItemBackground"
+			android:clickable="true"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1.0">
+
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center">
+
+				<TextView
+					android:id="@+id/getColorsPrimaryLightText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:text="@string/ui_controls_color"
+					android:gravity="center"
+					android:clickable="false"
+					android:textSize="12sp"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/getColorsPrimaryDark"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			app:cardBackgroundColor="@color/colorAccent"
+			app:cardCornerRadius="10dp"
+			app:cardElevation="5dp"
+			app:cardUseCompatPadding="true"
+			android:foreground="?attr/selectableItemBackground"
+			android:clickable="true"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp">
+
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center">
+
+				<TextView
+					android:id="@+id/getColorsPrimaryDarkText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:text="@string/ui_controls_color"
+					android:gravity="center"
+					android:clickable="false"
+					android:textSize="12sp"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/secondary_colors"
+		android:textColor="@android:color/black"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_marginBottom="6dp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="3dp">
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/getColorsSecondary"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			app:cardBackgroundColor="@color/colorAccent"
+			app:cardCornerRadius="10dp"
+			app:cardElevation="5dp"
+			app:cardUseCompatPadding="true"
+			android:foreground="?attr/selectableItemBackground"
+			android:clickable="true"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1.0"
+			android:layout_marginRight="5dp">
+
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center">
+
+				<TextView
+					android:id="@+id/getColorsSecondaryText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:text="@string/ui_controls_color"
+					android:gravity="center"
+					android:clickable="false"
+					android:textSize="12sp"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/getColorsSecondaryLight"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			app:cardBackgroundColor="@color/colorAccent"
+			app:cardCornerRadius="10dp"
+			app:cardElevation="5dp"
+			app:cardUseCompatPadding="true"
+			android:foreground="?attr/selectableItemBackground"
+			android:clickable="true"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1.0">
+
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center">
+
+				<TextView
+					android:id="@+id/getColorsSecondaryLightText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:text="@string/ui_controls_color"
+					android:gravity="center"
+					android:clickable="false"
+					android:textSize="12sp"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+		<android.support.v7.widget.CardView
+			android:id="@+id/getColorsSecondaryDark"
+			android:layout_width="100dp"
+			android:layout_height="100dp"
+			app:cardBackgroundColor="@color/colorAccent"
+			app:cardCornerRadius="10dp"
+			app:cardElevation="5dp"
+			app:cardUseCompatPadding="true"
+			android:foreground="?attr/selectableItemBackground"
+			android:clickable="true"
+			android:layout_alignParentRight="true"
+			android:layout_weight="1.0"
+			android:layout_marginLeft="5dp">
+
+			<RelativeLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center">
+
+				<TextView
+					android:id="@+id/getColorsSecondaryDarkText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/white"
+					android:text="@string/ui_controls_color"
+					android:gravity="center"
+					android:clickable="false"
+					android:textSize="12sp"/>
+
+			</RelativeLayout>
+
+		</android.support.v7.widget.CardView>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/click_to_copy_the_colors"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+

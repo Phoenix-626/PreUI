@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+		android:checkableBehavior="single">
+		<item android:title="Options">
+			<menu>
+				<item android:title="Preview UI"
+					android:icon="@drawable/ic_preview"
+					android:id="@+id/previewUI"/>
+				<item android:title="Material Colors"
+					android:id="@+id/materialColors"
+					android:icon="@drawable/ic_color_palette"/>
+			</menu>
+		</item>
+	</group>
+
+	<group
+		android:checkableBehavior="single">
+		<item android:title="Communicate">
+			<menu>
+				<item android:title="Report a bug"
+					android:id="@+id/navReportBug"
+					android:icon="@drawable/ic_report_bug"/>
+				<item android:title="Suggest"
+					android:id="@+id/navSuggest"
+					android:icon="@drawable/ic_suggest"/>
+			</menu>
+		</item>
+	</group>
+	
+	<group
+		android:checkableBehavior="single">
+		<item android:title="About">
+			<menu>
+				<item android:title="App"
+					android:id="@+id/navAboutApp"
+					android:icon="@drawable/ic_about"/>
+				<item android:title="Developer"
+					android:id="@+id/navAboutDev"
+					android:icon="@drawable/ic_dev"/>
+			</menu>
+		</item>
+	</group>
+
+</menu>

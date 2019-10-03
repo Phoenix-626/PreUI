@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="primary_colors">Primary Colors</string>
+    <string name="secondary_colors">Secondary Colors</string>
+    <string name="click_to_copy_the_colors">Click to copy the colors</string>
+
+    <string name="get_colors_list">Get Colors list</string>
+
+    <string name="your_apps_branding_color">colorPrimary : #FFFFFFFF</string>
+    <string name="ui_controls_color">colorAccent : #FFB0AEA7</string>
+
+
+    <string name="app_name">PreUI</string>
+	<string name="preview">Preview Layout</string>
+	<string name="aboutMessage">PreUI is an app that can preview the layout of your app if you provide some colors.\n\n<b>Note :</b> PreUI just suggests some colors for your application, but it cannot handle some situations.\nFor example, it cannot generate lighter color for #FFFFFF(White).</string>
+	<string name="preview_app_title">Your Awesome App</string>
+
+</resources>
